@@ -1,15 +1,12 @@
-
-import './App.css'
-import Card_1 from './components/Card_1'
+import "./App.css";
+import Home from "./components/Home";
 
 function App() {
- 
   return (
-    <div>
-      <Card_1 />
-
+    <div className="app">
+      <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

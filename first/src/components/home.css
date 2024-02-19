@@ -1,0 +1,132 @@
+.home {
+  width: 85%;
+  margin: auto;
+}
+.sub {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.home1 {
+  width: 74%;
+}
+.home11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media (max-width: 678px) {
+  .home11 {
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .home1,
+  .home2 {
+    width: 100% !important;
+  }
+  .home2 {
+    max-width: 400px !important;
+  }
+}
+.home2 {
+  width: 24%;
+}
+.profileCard {
+  background-color: rgb(166, 212, 197);
+  padding: 5%;
+  margin: 0.35rem;
+  position: relative;
+  box-shadow: 1px 1px 6px 3px rgba(170, 170, 170, 0.5);
+}
+.pc-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+}
+.profile-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.profileCard p {
+  display: flex;
+  align-items: center;
+}
+.h4 {
+  margin: 0.5rem 0;
+}
+
+.h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.foll-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.foll-img-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: min-content;
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+}
+
+.followers {
+  position: relative;
+  padding: 5%;
+  background-color: rgb(166, 212, 197);
+  box-shadow: 1px 1px 6px 3px rgba(170, 170, 170, 0.5);
+}
+.ooo {
+  margin-bottom: 0.75rem !important;
+}
+
+.foll-img-cnt > img:nth-child(1) {
+  margin-right: -20%;
+  z-index: 2;
+}
+.foll-img-cnt > img:nth-child(2) {
+  z-index: 3;
+}
+.foll-img-cnt > img:nth-child(3) {
+  margin-left: -20%;
+  z-index: 4;
+}
+.notification {
+  padding: 5%;
+  background-color: rgb(166, 212, 197);
+  box-shadow: 1px 1px 6px 3px rgba(170, 170, 170, 0.5);
+  margin: 4% auto;
+}
+.notification > p {
+  margin-bottom: 4%;
+}
+.n1 > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% auto;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(163, 194, 194);
+  display: grid;
+  place-content: center;
+}
